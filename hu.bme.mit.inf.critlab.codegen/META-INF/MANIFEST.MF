@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: hu.bme.mit.inf.critlab.codegen;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: hu.bme.mit.inf.critlab.codegen.dfd.generator,
+ hu.bme.mit.inf.critlab.codegen.dfd.generator.impl,
+ hu.bme.mit.inf.critlab.codegen.dfd.generator.util,
+ hu.bme.mit.inf.critlab.codegen.dfd.pid,
+ hu.bme.mit.inf.critlab.codegen.dfd.pid.impl,
+ hu.bme.mit.inf.critlab.codegen.dfd.pid.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ com.google.guava,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.xtend.lib,
+ org.eclipse.xtend.lib.macro,
+ org.eclipse.emf.ecore.xmi;bundle-version="2.11.0"
+Bundle-ActivationPolicy: lazy
+
