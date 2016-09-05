@@ -12,6 +12,6 @@ import java.util.concurrent.Future;
  * @param wordGranularity true if tokens are words, false if tokens are characters
  * @return a future computation of the similarity value
  */
-public interface IDocumentSimilarityEstimator {
+public interface DocumentSimilarityEstimator {
 	public Future<Double> cosineSimilarity(String document1, String document2, int shingleSize, boolean wordGranularity);
 }

@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 
 import org.junit.Test;
 
-import hu.bme.mit.critlab.base.IDocumentSimilarityEstimator;
+import hu.bme.mit.critlab.base.DocumentSimilarityEstimator;
 
 public class FutureTest {
 	static final String
@@ -49,7 +49,7 @@ public class FutureTest {
 			"you wish to, and tell the story again, for us.";
 		static final String[] texts = new String[]{ HerbertJordan, NorbertAlbertson, StephenMitchell };
 		
-		IDocumentSimilarityEstimator estimator = (new TestBase()).getEstimator();
+		DocumentSimilarityEstimator estimator = (new TestBase()).getEstimator();
 		
 		@Test
 		public void multipleCallTest() throws InterruptedException, ExecutionException {

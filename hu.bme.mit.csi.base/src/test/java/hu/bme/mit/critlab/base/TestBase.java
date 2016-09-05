@@ -5,13 +5,13 @@ import java.util.concurrent.Future;
 
 import org.junit.Assert;
 
-import hu.bme.mit.critlab.base.IDocumentSimilarityEstimator;
+import hu.bme.mit.critlab.base.DocumentSimilarityEstimator;
 
 public class TestBase {
 	
 	private static final double TOLERANCE_EPSILON = 1.0E-5;
 
-	protected IDocumentSimilarityEstimator getEstimator() {
+	protected DocumentSimilarityEstimator getEstimator() {
 		// TODO instantiate your solution here
 		throw new UnsupportedOperationException("instantiate your solution here");
 	}
