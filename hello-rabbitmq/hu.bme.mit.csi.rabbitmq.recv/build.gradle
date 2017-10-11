@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+mainClassName = "hu.bme.mit.csi.rabbitmq.recv.Main"
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.0.0'
+  compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+}
