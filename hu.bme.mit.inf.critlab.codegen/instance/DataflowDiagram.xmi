@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hu.bme.mit.inf.critlab.codegen.dfd.pid:DataflowDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hu.bme.mit.inf.critlab.codegen.dfd.pid="hu.bme.mit.inf.critlab.codegen.dfd.pid" xsi:schemaLocation="hu.bme.mit.inf.critlab.codegen.dfd.pid ../model/dfd_pid.ecore">
+  <nodes name="Tokenize"/>
+  <nodes name="Vectorize"/>
+</hu.bme.mit.inf.critlab.codegen.dfd.pid:DataflowDiagram>
