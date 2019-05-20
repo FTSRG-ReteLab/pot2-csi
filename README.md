@@ -4,6 +4,8 @@
 
 Base project for the Critical Systems Integration Laboratory
 
-*#This is an H1 Title
+#This is an H1 Title
+
 ** This text is bold
+
 *Item 1 * Item 2
