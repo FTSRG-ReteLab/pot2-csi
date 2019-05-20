@@ -10,7 +10,7 @@ public class BlockBoundaryTest extends TestBase {
 		doSimpleTest(1.0, 
 				"abcdefgh abcdefgh", 
 				"abcdefgh", 
-				2, false);
+				2, true);
 	}
 	@Test
 	public void duplicatedBlockWords() throws ExecutionException {
