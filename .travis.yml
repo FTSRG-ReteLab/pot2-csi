@@ -1,7 +1,1 @@
-jdk:
-  - oraclejdk8
-install: true
-script:
-  - cd hu.bme.mit.csi.base
-  - ./gradlew assemble
-  - ./gradlew check -x test
+language: java
