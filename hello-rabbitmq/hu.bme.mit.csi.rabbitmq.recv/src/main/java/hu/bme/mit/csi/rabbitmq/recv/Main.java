@@ -15,7 +15,7 @@ public final class Main {
 	private final static String QUEUE_NAME = "hello";
 
 	public static void main(final String[] argv) throws IOException, TimeoutException {
-		ystem.out.println("Hello World");
+		System.out.println("Hello World");
 		final ConnectionFactory factory = new ConnectionFactory();
 		factory.setHost("localhost");
 		final Connection connection = factory.newConnection();
