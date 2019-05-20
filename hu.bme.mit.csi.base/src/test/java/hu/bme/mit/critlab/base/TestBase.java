@@ -10,7 +10,13 @@ import hu.bme.mit.critlab.base.DocumentSimilarityEstimator;
 public class TestBase {
 	
 	private static final double TOLERANCE_EPSILON = 1.0E-5;
-
+	
+	public void OwnTest()
+	{
+		int i = 1;
+		Assert.assertEquals(1, i);
+	}
+	
 	protected DocumentSimilarityEstimator getEstimator() {
 		// TODO instantiate your solution here
 		throw new UnsupportedOperationException("instantiate your solution here");
