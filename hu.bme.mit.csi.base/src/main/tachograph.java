@@ -1,6 +1,6 @@
 public class Tacograph {
 
-    private Table adatok = HashBasedTable.create();
+
     private HashBasedTable adatok = HashBasedTable.create();
 
     public Tacograph(TrainController controller, TrainUser user) {
@@ -9,7 +9,7 @@ public class Tacograph {
         adatok.put(0,2,controller.getReferenceSpeed());
     }
 
-    public Table getAdatok() {
+   
     public HashBasedTable getAdatok() {
         return adatok;
     }
