@@ -3,10 +3,10 @@ public class Tacograph {
 
     private HashBasedTable adatok = HashBasedTable.create();
 
-    public Tacograph(TrainController controller, TrainUser user) {
+    public Tacograph() {
         adatok.put(0,0,System.currentTimeMillis());
-        adatok.put(0,1,user.getJoystickPosition());
-        adatok.put(0,2,controller.getReferenceSpeed());
+        adatok.put(0,1,getJoystickPosition());
+        adatok.put(0,2,getReferenceSpeed());
     }
 
    
